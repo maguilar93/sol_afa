@@ -1,0 +1,10 @@
+img {
+  width: 30em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-top: 5%; */
+  margin-bottom: 15%;
+  border-radius: 5%;
+  box-shadow: 10px 10px 5px grey;
+}

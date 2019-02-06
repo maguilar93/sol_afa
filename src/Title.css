@@ -1,0 +1,16 @@
+.songTitles {
+  right: inherit;
+  margin-top: 4%;
+  line-height: 25px;
+}
+
+.songs {
+  letter-spacing: 1em;
+  text-align: center;
+  list-style: none;
+  margin-bottom: 2em;
+}
+
+.songs:last-child {
+  margin-bottom: 0;
+}

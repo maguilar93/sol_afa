@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "../Title.css";
 
 class Title extends Component {
   state = {
@@ -17,11 +18,16 @@ class Title extends Component {
   render() {
     return (
       <div>
-        <ul>
-          {this.state.songs.map(song => (
-            <li key={song}>{song}</li>
-          ))}
-        </ul>
+        <div className="topSection">
+          <ul className="songTitles">
+            {this.state.songs.map(song => (
+              <li className="songs" key={song}>
+                {song}
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div />
       </div>
     );
   }

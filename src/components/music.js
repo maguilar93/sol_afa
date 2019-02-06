@@ -1,13 +1,30 @@
 import React, { Component } from "react";
-import cover from "../SadOldLoser_Cover.jpeg";
+// import cover from "../SadOldLoser_Cover.jpeg";
+import "../Music.css";
+import Dropdown from "./dropdown";
+// import Title from "./songTitles";
+import Video from "./video";
+import { Grid, Cell } from "react-mdl";
+import Platforms from "./platforms";
+import AlbumCover from "./albumcover";
 
 class Music extends Component {
   state = {};
   render() {
     return (
-      <div>
-        <h1>Music</h1>
-        <img src={cover} alt="cover" />
+      <div className="fullPage_music">
+        <Dropdown />
+        <div className="music-content">
+          <Video />
+          <Grid className="demo-grid-2">
+            <Cell col={6} tablet={12} className="music_col">
+              <AlbumCover />
+            </Cell>
+            <Cell col={6} tablet={12} className="music_col">
+              <Platforms />
+            </Cell>
+          </Grid>
+        </div>
       </div>
     );
   }

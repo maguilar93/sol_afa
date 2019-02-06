@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { Layout, Content } from "react-mdl";
 import "./App.css";
 import Main from "./components/main";
-// import { Link } from "react-router-dom";
 import "./index.css";
 
 class App extends Component {

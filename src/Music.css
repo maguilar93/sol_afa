@@ -1,0 +1,76 @@
+img {
+  width: 30em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  border-radius: 5%;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.fullPage_music {
+  box-shadow: 0px 0px 0px 3em rgba(40, 109, 168, 0.5) inset;
+  min-height: 100%;
+}
+
+.videoclipTitle {
+  display: block;
+  margin: 5% auto;
+  letter-spacing: 0.1em;
+  font-size: 48px;
+  font-weight: 800;
+  text-align: center;
+  font-family: "Reenie Beanie", cursive;
+}
+
+.fas .fa-long-arrow-alt-down {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.videoclip {
+  display: block;
+  margin: 5% auto;
+}
+
+.playingOn {
+  letter-spacing: 0;
+  display: inline;
+  text-align: center;
+  /* border: 1px solid black; */
+  /* padding: 0.5em 3em; */
+}
+
+.mdl-grid {
+  margin: 0 2em !important;
+}
+
+.mdl-grid .downloadOn {
+  margin: 0 0.1em 0.1em 0.1em;
+  border: 1px solid black;
+  padding: 0.5em 0;
+  font-weight: 700;
+}
+
+.mdl-cell {
+  text-align: center;
+}
+
+.thirdSection {
+  min-height: 100%;
+  padding-bottom: 8em;
+}
+
+.demo-grid-1 {
+  margin: 0 3em;
+  justify-content: center;
+}
+
+.available {
+  letter-spacing: 0.1em;
+  text-align: center;
+  padding-bottom: 1em;
+  font-weight: 700;
+  font-size: 24px;
+}
