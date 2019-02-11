@@ -26,3 +26,11 @@
   font-size: 1.2em;
   color: rgba(40, 109, 168, 0.5);
 }
+
+@media screen and (max-width: 425px) {
+  .songs {
+    font-size: 1.1em;
+    line-height: 1.5em;
+    display: inline-block;
+  }
+}

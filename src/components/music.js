@@ -1,10 +1,8 @@
 import React, { Component } from "react";
 import "../Music.css";
 import Dropdown from "./dropdown";
-import { Grid, Cell } from "react-mdl";
-import Platforms from "./platforms";
-import AlbumCover from "./albumcover";
-import Titles from "./songTitles";
+import ReactPlayer from "react-player";
+import Platform from "./platforms";
 
 class Music extends Component {
   state = {};
@@ -12,18 +10,17 @@ class Music extends Component {
     return (
       <div className="fullPage_music">
         <Dropdown />
-        <div className="music-content">
-          <Grid className="demo-grid-2">
-            <Titles />
-          </Grid>
-          <Grid className="demo-grid-2">
-            <Cell col={6} tablet={12} className="music_col">
-              <AlbumCover />
-            </Cell>
-            <Cell col={6} tablet={12} className="music_col">
-              <Platforms />
-            </Cell>
-          </Grid>
+        <div className="player-wrapper">
+          <ReactPlayer
+            url="https://www.youtube.com/watch?v=LVbHwcQPfvA&feature=youtu.be"
+            controls
+            className="videoclip"
+            width="100%"
+            height="100%"
+          />
+        </div>
+        <div>
+          <Platform />
         </div>
       </div>
     );

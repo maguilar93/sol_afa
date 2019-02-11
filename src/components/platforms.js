@@ -3,12 +3,11 @@ import { Grid, Cell } from "react-mdl";
 import "../Platforms.css";
 
 class Platforms extends Component {
-  state = {};
   render() {
     return (
       <div className="platforms-fullSection">
-        <Grid className="demo-grid-1">
-          <Cell col={12} className="downloadOn">
+        <Grid className="plat">
+          <Cell col={2} className="downloadOn">
             <a
               href="https://open.spotify.com/artist/5I71oqDxW39FaH4mu29s30?si=rGWsDQYoTcalK-BfPrR8ng"
               className="playingOn"
@@ -17,7 +16,7 @@ class Platforms extends Component {
               spotify
             </a>
           </Cell>
-          <Cell col={12} className="downloadOn">
+          <Cell col={2} className="downloadOn">
             <a
               href="https://itunes.apple.com/us/album/sad-old-loser/1450720380?app=music&ign-mpt=uo%3D4"
               className="playingOn"
@@ -26,7 +25,7 @@ class Platforms extends Component {
               itunes
             </a>
           </Cell>
-          <Cell col={12} className="downloadOn">
+          <Cell col={2} className="downloadOn">
             <a
               href="https://www.amazon.com/gp/product/B07N5M19XZ/?tag=distrokid06-20"
               className="playingOn"
@@ -35,7 +34,7 @@ class Platforms extends Component {
               amazon
             </a>
           </Cell>
-          <Cell col={12} className="downloadOn">
+          <Cell col={2} className="downloadOn">
             <a
               href="https://afelonaffair.bandcamp.com/album/sad-old-loser"
               className="playingOn"
@@ -44,7 +43,7 @@ class Platforms extends Component {
               bandcamp
             </a>
           </Cell>
-          <Cell col={12} className="downloadOn">
+          <Cell col={2} className="downloadOn">
             <a
               href="https://soundcloud.com/afelonaffair/sets/sadoldloser"
               className="playingOn"
@@ -53,7 +52,7 @@ class Platforms extends Component {
               soundcloud
             </a>
           </Cell>
-          <Cell col={12} className="downloadOn">
+          <Cell col={2} className="downloadOn">
             <a href="/" className="playingOn">
               <i className="fab fa-google-play platformLogo" />
               google play

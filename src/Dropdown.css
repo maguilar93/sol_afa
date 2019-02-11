@@ -60,3 +60,34 @@
 .fa-angle-down {
   margin-left: 10px;
 }
+
+@media screen and (max-width: 1024px) {
+  .title {
+    line-height: 32px;
+  }
+
+  .dropdown-button {
+    line-height: 20px;
+  }
+
+  .dropdown-list {
+    right: 2em;
+    width: 9em;
+    top: 2em;
+  }
+
+  .dropdown-list li a {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .title {
+    font-size: 0.7em;
+  }
+
+  .dropdown-button {
+    line-height: 25px;
+    font-size: 0.7em;
+  }
+}

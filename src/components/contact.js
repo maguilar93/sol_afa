@@ -6,7 +6,7 @@ import facebook from "../socialMedia/facebook.svg";
 import instagram from "../socialMedia/instagram.svg";
 import mail from "../socialMedia/send-mail.svg";
 import { Grid, Cell } from "react-mdl";
-import Responsive from "react-responsive";
+// import Responsive from "react-responsive";
 
 class Contact extends Component {
   state = {};
