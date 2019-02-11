@@ -1,16 +1,28 @@
 .songTitles {
-  right: inherit;
   margin-top: 4%;
-  line-height: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  /* padding-right: 10px; */
+  justify-content: space-evenly;
 }
 
 .songs {
-  letter-spacing: 1em;
-  text-align: center;
-  list-style: none;
-  margin-bottom: 2em;
+  letter-spacing: 0.2em;
+  display: flex;
+  font-size: 3em;
+  line-height: 0.8em;
 }
 
 .songs:last-child {
   margin-bottom: 0;
+}
+
+.songs a {
+  text-decoration: none;
+  color: black;
+}
+
+.songs a:hover {
+  font-size: 1.2em;
+  color: rgba(40, 109, 168, 0.5);
 }

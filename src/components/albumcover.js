@@ -7,7 +7,7 @@ class AlbumCover extends Component {
   render() {
     return (
       <div className="album-fullSection">
-        <img src={cover} alt="cover" />
+        <img className="cover" src={cover} alt="cover" />
       </div>
     );
   }

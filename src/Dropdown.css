@@ -28,10 +28,10 @@
 
 .dropdown-list {
   position: absolute;
-  right: 5%;
+  right: 3em;
   padding-left: 0;
   width: 11em;
-  background-color: rgba(198, 121, 83, 0.5);
+  background-color: rgba(198, 121, 83, 0.5) !important;
 }
 
 .dropdown-button {

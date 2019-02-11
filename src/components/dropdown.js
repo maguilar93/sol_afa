@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 import "../Dropdown.css";
+// import { withRouter } from ‘react-router-dom’;
 
 class Dropdown extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
 
     this.state = {
       displayMenu: false
@@ -27,6 +28,18 @@ class Dropdown extends Component {
   }
 
   render() {
+    const styles = {
+      music: {
+        backgroundColor: "rgba(40, 109, 168, 0.5)"
+      },
+      contact: {
+        backgroundColor: "rgba(250, 172, 5, 0.5)"
+      },
+      home: {
+        backgroundColor: "rgba(198, 121, 83, 0.5)"
+      }
+    };
+
     return (
       <div className="dropdown">
         <a href="/" className="title">
@@ -38,13 +51,13 @@ class Dropdown extends Component {
         </div>
 
         {this.state.displayMenu ? (
-          <ul className="dropdown-list">
+          <ul className="dropdown-list" style={styles.music}>
             <li>
               <a href="/">Home</a>
             </li>
-            <li>
+            {/* <li>
               <a href="aboutme">About Me</a>
-            </li>
+            </li> */}
             <li>
               <a href="music">Music</a>
             </li>
