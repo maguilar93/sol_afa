@@ -11,16 +11,19 @@ class Music extends Component {
       <div className="fullPage_music">
         <Dropdown />
         <div>
+          <span className="musicText">Falls Away</span>
           <div className="player-wrapper">
             <ReactPlayer
               url="https://www.youtube.com/watch?v=LVbHwcQPfvA&feature=youtu.be"
               controls
+              playing
               className="videoclip"
               width="100%"
               height="100%"
             />
           </div>
           <div>
+            <span className="musicText">Download now on:</span>
             <Platform />
           </div>
         </div>
