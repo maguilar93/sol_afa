@@ -16,7 +16,7 @@ class Contact extends Component {
         <Dropdown />
         <span className="socialText">Get in touch</span>
         <div className="socialMedia">
-          <Grid className="demo-grid-1">
+          <Grid className="socialMediaGrid">
             <Cell col={3} tablet={6} phone={12}>
               <img className="socialMediaImage" alt="youtube" src={youtube} />
             </Cell>

@@ -37,6 +37,12 @@
 
 @media screen and (max-width: 768px) {
   .playingOn {
-    width: 14%;
+    font-size: 0.6em;
+  }
+
+  @media screen and (max-width: 420px) {
+    .playingOn {
+      font-size: 0.4em;
+    }
   }
 }

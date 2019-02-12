@@ -8,30 +8,61 @@
 }
 
 .socialMedia {
-  width: 30%;
   position: absolute;
   top: 50%;
   width: 100%;
-  left: 0;
+  left: 5%;
 }
 
 .socialMediaImage {
   width: 50%;
-  /* height: 20em; */
-  /* margin-top: 3em; */
 }
-
-/* .socialMediaText {
-  letter-spacing: 0;
-  text-align: center;
-  width: 100%;
-  font-size: 3em;
-  padding-left: 2.25em;
-} */
 
 .socialText {
   font-size: 3em;
   position: absolute;
-  top: 25%;
-  left: 30%;
+  top: 30%;
+  left: 25%;
+}
+
+@media screen and (max-width: 1400px) {
+  .socialMedia {
+    left: 5%;
+  }
+
+  .socialText {
+    font-size: 2.5em;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .socialText {
+    font-size: 1.5em;
+  }
+}
+@media screen and (max-width: 420px) {
+  .socialMediaImage {
+    left: 30%;
+    position: relative;
+    bottom: 150%;
+    width: 25%;
+  }
+
+  .socialText {
+    font-size: 1.5em;
+    text-align: center;
+    letter-spacing: 0.2em;
+    top: 20%;
+  }
+
+  .contact-fullpage {
+    box-shadow: 0px 0px 0px 2em rgba(250, 172, 5, 0.5) inset;
+    min-height: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .socialText {
+    left: 20%;
+  }
 }

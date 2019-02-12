@@ -6,7 +6,7 @@ class Platforms extends Component {
   render() {
     return (
       <div className="platforms-fullSection">
-        <Grid className="plat">
+        <Grid className="platform">
           <Cell col={2} className="downloadOn">
             <a
               href="https://open.spotify.com/artist/5I71oqDxW39FaH4mu29s30?si=rGWsDQYoTcalK-BfPrR8ng"
