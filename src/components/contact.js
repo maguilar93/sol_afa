@@ -18,20 +18,38 @@ class Contact extends Component {
         <div className="socialMedia">
           <Grid className="socialMediaGrid">
             <Cell col={3} tablet={6} phone={12}>
-              <img className="socialMediaImage" alt="youtube" src={youtube} />
+              <a
+                target="_blank"
+                href="https://www.youtube.com/channel/UCdBfz2Y97I-9OgTF4SCzSKQ"
+              >
+                <img className="socialMediaImage" alt="youtube" src={youtube} />
+              </a>
             </Cell>
             <Cell col={3} tablet={6} phone={12}>
-              <img className="socialMediaImage" alt="facebook" src={facebook} />
+              <a target="_blank" href="https://www.facebook.com/afelonaffair/">
+                <img
+                  className="socialMediaImage"
+                  alt="facebook"
+                  src={facebook}
+                />
+              </a>
             </Cell>
             <Cell col={3} tablet={6} phone={12}>
-              <img
-                className="socialMediaImage"
-                alt="instagram"
-                src={instagram}
-              />
+              <a
+                target="_blank"
+                href="https://www.instagram.com/afelonaffair/?hl=en"
+              >
+                <img
+                  className="socialMediaImage"
+                  alt="instagram"
+                  src={instagram}
+                />
+              </a>
             </Cell>
             <Cell col={3} tablet={6} phone={12}>
-              <img className="socialMediaImage" alt="e-mail" src={mail} />
+              <a href="mailto:mailto:ceo@afelonaffair.com">
+                <img className="socialMediaImage" alt="e-mail" src={mail} />
+              </a>
             </Cell>
           </Grid>
         </div>
