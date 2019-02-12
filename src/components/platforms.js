@@ -10,6 +10,7 @@ class Platforms extends Component {
           <Cell col={2} phone={12} className="downloadOn">
             <a
               target="_blank"
+              rel="noopener noreferrer"
               href="https://open.spotify.com/artist/5I71oqDxW39FaH4mu29s30?si=rGWsDQYoTcalK-BfPrR8ng"
               className="playingOn"
             >
@@ -20,6 +21,7 @@ class Platforms extends Component {
           <Cell col={2} phone={12} className="downloadOn">
             <a
               target="_blank"
+              rel="noopener noreferrer"
               href="https://itunes.apple.com/us/album/sad-old-loser/1450720380?app=music&ign-mpt=uo%3D4"
               className="playingOn"
             >
@@ -30,6 +32,7 @@ class Platforms extends Component {
           <Cell col={2} phone={12} className="downloadOn">
             <a
               target="_blank"
+              rel="noopener noreferrer"
               href="https://www.amazon.com/gp/product/B07N5M19XZ/?tag=distrokid06-20"
               className="playingOn"
             >
@@ -40,6 +43,7 @@ class Platforms extends Component {
           <Cell col={2} phone={12} className="downloadOn">
             <a
               target="_blank"
+              rel="noopener noreferrer"
               href="https://afelonaffair.bandcamp.com/album/sad-old-loser"
               className="playingOn"
             >
@@ -50,6 +54,7 @@ class Platforms extends Component {
           <Cell col={2} phone={12} className="downloadOn">
             <a
               target="_blank"
+              rel="noopener noreferrer"
               href="https://soundcloud.com/afelonaffair/sets/sadoldloser"
               className="playingOn"
             >
@@ -60,6 +65,7 @@ class Platforms extends Component {
           <Cell col={2} phone={12} className="downloadOn">
             <a
               target="_blank"
+              rel="noopener noreferrer"
               href="https://bit.do/sadoldloser"
               className="playingOn"
             >

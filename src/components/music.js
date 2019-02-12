@@ -23,7 +23,7 @@ class Music extends Component {
             />
           </div>
           <div>
-            <span className="musicText">Download now on:</span>
+            <span className="musicText">Download the album now</span>
             <Platform />
           </div>
         </div>

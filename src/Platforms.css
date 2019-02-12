@@ -4,10 +4,6 @@
   padding-bottom: 8%;
 }
 
-.platforms {
-  display: flex;
-}
-
 .playingOn {
   letter-spacing: 0;
   text-align: center;
@@ -27,7 +23,7 @@
 }
 
 .platform {
-  width: 60%;
+  width: 100%;
 }
 
 .platformLogo {
