@@ -1,7 +1,8 @@
 .platforms-fullSection {
-  padding-top: 8%;
-  margin: 0 5em;
+  padding-top: 6%;
+  margin: 0 7em 0 5em;
   padding-bottom: 8%;
+  position: relative;
 }
 
 .playingOn {
@@ -43,7 +44,7 @@
 
   @media screen and (max-width: 420px) {
     .playingOn {
-      font-size: 0.4em;
+      font-size: 1em;
     }
   }
 }

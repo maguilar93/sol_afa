@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Dropdown from "./dropdown";
 import "../Landingpage.css";
 import "../Dropdown.css";
+import Footer from "./footer";
 
 class LandingPage extends Component {
   render() {
@@ -13,6 +14,7 @@ class LandingPage extends Component {
             <a href="./music">available now</a>
           </div>
         </div>
+        <Footer />
       </div>
     );
   }

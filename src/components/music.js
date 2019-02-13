@@ -3,6 +3,7 @@ import "../Music.css";
 import Dropdown from "./dropdown";
 import ReactPlayer from "react-player";
 import Platform from "./platforms";
+import Footer from "./footer";
 
 class Music extends Component {
   state = {};
@@ -23,10 +24,11 @@ class Music extends Component {
             />
           </div>
           <div>
-            <span className="musicText">Download the album now</span>
+            <span className="musicText">Get the album now</span>
             <Platform />
           </div>
         </div>
+        <Footer />
       </div>
     );
   }

@@ -6,6 +6,7 @@ import facebook from "../socialMedia/facebook.svg";
 import instagram from "../socialMedia/instagram.svg";
 import mail from "../socialMedia/send-mail.svg";
 import { Grid, Cell } from "react-mdl";
+import Footer from "./footer";
 // import Responsive from "react-responsive";
 
 class Contact extends Component {
@@ -20,13 +21,18 @@ class Contact extends Component {
             <Cell col={3} tablet={6} phone={12}>
               <a
                 target="_blank"
+                rel="noopener noreferrer"
                 href="https://www.youtube.com/channel/UCdBfz2Y97I-9OgTF4SCzSKQ"
               >
                 <img className="socialMediaImage" alt="youtube" src={youtube} />
               </a>
             </Cell>
             <Cell col={3} tablet={6} phone={12}>
-              <a target="_blank" href="https://www.facebook.com/afelonaffair/">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.facebook.com/afelonaffair/"
+              >
                 <img
                   className="socialMediaImage"
                   alt="facebook"
@@ -37,6 +43,7 @@ class Contact extends Component {
             <Cell col={3} tablet={6} phone={12}>
               <a
                 target="_blank"
+                rel="noopener noreferrer"
                 href="https://www.instagram.com/afelonaffair/?hl=en"
               >
                 <img
@@ -53,6 +60,7 @@ class Contact extends Component {
             </Cell>
           </Grid>
         </div>
+        <Footer />
       </div>
     );
   }

@@ -10,9 +10,9 @@
   min-height: 100%;
 }
 
-/* .landing-fullpage > .dropdown > .dropdown-list {
-  background-color: rgba(198, 121, 83, 0.5) !important;
-} */
+.landing-fullPage > .footerPage > .footer {
+  position: absolute;
+}
 
 .landing-content h1 {
   font-family: "Nunito", sans-serif;

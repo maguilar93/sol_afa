@@ -7,6 +7,10 @@
   background-color: rgba(40, 109, 168, 0.5) !important;
 }
 
+.fullPage_music > .footerPage > .footer {
+  position: relative;
+}
+
 .videoclip {
   position: absolute;
   top: 0;
@@ -27,7 +31,7 @@
   text-align: center;
   display: block;
   letter-spacing: 0.2em;
-  margin: 2em auto 0 auto;
+  margin: 3.5em auto 0 auto;
   width: 60%;
 }
 
