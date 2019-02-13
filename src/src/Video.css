@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css?family=Reenie+Beanie");
+
+.videoSection {
+  min-height: 100%;
+  justify-content: center;
+}
+
+/* .demo-grid-1 {
+  margin: 0 3em;
+  min-height: 100%;
+} */
+
+.videoclipTitle {
+  display: block;
+  margin: 5% auto;
+  letter-spacing: 0.1em;
+  font-size: 48px;
+  font-weight: 800;
+  text-align: center;
+  font-family: "Reenie Beanie", cursive;
+}
+
+ {
+  min-height: 100%;
+}
