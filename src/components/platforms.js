@@ -11,7 +11,7 @@ class Platforms extends Component {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://open.spotify.com/artist/5I71oqDxW39FaH4mu29s30?si=rGWsDQYoTcalK-BfPrR8ng"
+              href="https://open.spotify.com/album/6sqhjAv6ktmQ6mHTokvVO5?si=Cnybm3hxQEaF3xjUWHBkUA"
               className="playingOn"
             >
               <i className="fab fa-spotify platformLogo" />

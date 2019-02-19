@@ -8,6 +8,9 @@
   background-repeat: no-repeat;
   box-shadow: 0px 0px 0px 3em rgba(198, 121, 83, 0.5) inset;
   min-height: 100%;
+
+  position: absolute;
+  min-width: 100%;
 }
 
 .landing-fullPage > .footerPage > .footer {
@@ -23,7 +26,7 @@
   font-size: 6em;
 }
 
-.landing-button a {
+.available_now {
   display: block;
   position: absolute;
   margin: 10px auto;
@@ -43,7 +46,7 @@
   letter-spacing: 0.1em;
 }
 
-.landing-button a:hover {
+.available_now:hover {
   background-color: black;
   color: white !important;
 }

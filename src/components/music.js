@@ -15,12 +15,13 @@ class Music extends Component {
           <span className="musicText">Falls Away</span>
           <div className="player-wrapper">
             <ReactPlayer
-              url="https://www.youtube.com/watch?v=LVbHwcQPfvA&feature=youtu.be"
+              url="https://www.youtube.com/watch?v=LVbHwcQPfvA"
               controls
               playing
               className="videoclip"
               width="100%"
               height="100%"
+              onStart={this._onStart}
             />
           </div>
           <div>
@@ -31,6 +32,10 @@ class Music extends Component {
         <Footer />
       </div>
     );
+  }
+  _onStart(event) {
+    // access to player in all event handlers via event.target
+    event.target.pauseVideo();
   }
 }
 

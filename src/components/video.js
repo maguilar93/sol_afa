@@ -1,23 +1,27 @@
 import React, { Component } from "react";
 import "../Video.css";
 // import { Grid, Cell } from "react-mdl";
-import ReactPlayer from "react-player";
+import YouTube from "react-youtube";
 
 class Video extends Component {
-  state = {};
   render() {
+    const opts = {
+      height: "390",
+      width: "640",
+      playerVars: {
+        // https://developers.google.com/youtube/player_parameters
+        autoplay: 1
+      }
+    };
+
     return (
-      <div className="videoSection">
-        {/* <span className="videoclipTitle">Falls away</span> */}
-        {/* <ReactPlayer
-          url="https://www.youtube.com/watch?v=jEy6MGu3bIA"
-          controls
-          className="videoclip"
-          width="100%"
-          height="100%"
-        /> */}
-      </div>
+      <YouTube videoId="LVbHwcQPfvA" opts={opts} onReady={this._onReady} />
     );
+  }
+
+  _onReady(event) {
+    // access to player in all event handlers via event.target
+    event.target.pauseVideo();
   }
 }
 

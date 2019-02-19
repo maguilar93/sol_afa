@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import "../Dropdown.css";
+import { Link } from "react-router-dom";
+
 // import { withRouter } from ‘react-router-dom’;
 
 class Dropdown extends Component {
@@ -53,16 +55,17 @@ class Dropdown extends Component {
         {this.state.displayMenu ? (
           <ul className="dropdown-list" style={styles.music}>
             <li>
-              <a href="/">Home</a>
+              {/* <a href="/">Home</a> */}
+              <Link to="/">Home</Link>
             </li>
             {/* <li>
               <a href="aboutme">About Me</a>
             </li> */}
             <li>
-              <a href="music">Music</a>
+              <Link to="/music">Music</Link>
             </li>
             <li>
-              <a href="contact">Contact</a>
+              <Link to="/contact">Contact</Link>
             </li>
           </ul>
         ) : null}
