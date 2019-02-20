@@ -6,8 +6,6 @@ body {
   font-family: "Nunito", sans-serif !important;
   text-transform: uppercase;
   letter-spacing: 3em;
-  /* -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; */
 }
 
 code {

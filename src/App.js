@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Layout, Content } from "react-mdl";
-import "./App.css";
+import "./css/App.css";
 import Main from "./components/main";
-import "./index.css";
+import "./css/index.css";
 
 class App extends Component {
   render() {

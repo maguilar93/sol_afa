@@ -1,13 +1,12 @@
 import React, { Component } from "react";
 import Dropdown from "./dropdown";
-import "../Contact.css";
-import youtube from "../socialMedia/youtube.svg";
-import facebook from "../socialMedia/facebook.svg";
-import instagram from "../socialMedia/instagram.svg";
-import mail from "../socialMedia/send-mail.svg";
+import "../css/Contact.css";
+import youtube from "../images/socialMedia/youtube.svg";
+import facebook from "../images/socialMedia/facebook.svg";
+import instagram from "../images/socialMedia/instagram.svg";
+import mail from "../images/socialMedia/send-mail.svg";
 import { Grid, Cell } from "react-mdl";
 import Footer from "./footer";
-// import Responsive from "react-responsive";
 
 class Contact extends Component {
   state = {};

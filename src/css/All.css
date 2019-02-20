@@ -1,0 +1,418 @@
+/* Contact CSS */
+.contact-fullpage {
+  box-shadow: 0px 0px 0px 3em rgba(250, 172, 5, 0.5) inset;
+  min-height: 100%;
+  position: absolute;
+  min-width: 100%;
+}
+
+.contact-fullpage > .dropdown > .dropdown-list {
+  background-color: rgba(250, 172, 5, 0.5) !important;
+}
+
+.contact-fullpage > .footerPage > .footer {
+  position: absolute;
+}
+
+.socialMedia {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  left: 5%;
+}
+
+.socialMediaImage {
+  width: 50%;
+}
+
+.socialText {
+  font-size: 3em;
+  position: absolute;
+  top: 30%;
+  left: 25%;
+}
+
+@media screen and (max-width: 1400px) {
+  .socialMedia {
+    left: 5%;
+  }
+
+  .socialText {
+    font-size: 2.5em;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .socialText {
+    font-size: 1.5em;
+  }
+}
+@media screen and (max-width: 420px) {
+  .socialMediaImage {
+    left: 30%;
+    position: relative;
+    bottom: 150%;
+    width: 25%;
+  }
+
+  .socialText {
+    font-size: 1.5em;
+    text-align: center;
+    letter-spacing: 0.2em;
+    top: 20%;
+  }
+
+  .contact-fullpage {
+    box-shadow: 0px 0px 0px 2em rgba(250, 172, 5, 0.5) inset;
+    min-height: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .socialText {
+    left: 20%;
+  }
+}
+
+/* Dropdown CSS */
+@import url("https://fonts.googleapis.com/css?family=Nunito:600,900");
+
+.dropdown-list li {
+  list-style: none;
+  margin: 0 0 0.5em 0;
+  padding: 0.3em;
+  width: 100%;
+  text-align: center;
+}
+
+.dropdown-list:last-child {
+  margin: 0;
+}
+
+.active {
+  color: white;
+  background-color: black;
+  padding: 0.2em;
+}
+
+.dropdown-list li a {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.dropdown-list {
+  position: absolute;
+  right: 3em;
+  padding-left: 0;
+  width: 11em;
+  background-color: rgba(198, 121, 83, 0.5) !important;
+}
+
+.dropdown-button {
+  right: 0;
+  top: 0.5%;
+  position: absolute;
+  color: black !important;
+  line-height: 38px;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  letter-spacing: 0.2em;
+  font-weight: 900;
+}
+
+.title {
+  letter-spacing: 0.2em;
+  line-height: 42px;
+  margin: 1.5em;
+  color: black;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.fa-angle-down {
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  .title {
+    line-height: 32px;
+  }
+
+  .dropdown-button {
+    line-height: 20px;
+  }
+
+  .dropdown-list {
+    right: 3em;
+    width: 9em;
+    top: 3em;
+  }
+
+  .dropdown-list li a {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .title {
+    font-size: 0.7em;
+  }
+
+  .dropdown-button {
+    line-height: 25px;
+    font-size: 0.7em;
+  }
+  .dropdown-list {
+    top: 2em;
+    right: 2em;
+  }
+}
+
+/* Footer CSS */
+.footer {
+  left: 2em;
+  bottom: 0.5em;
+  /* position: relative; */
+  letter-spacing: 0;
+  font-size: 10px;
+  /* text-align: right; */
+  font-weight: 800;
+}
+
+.footerPage {
+  min-height: 100%;
+}
+
+/* index CSS */
+@import url("https://fonts.googleapis.com/css?family=Nunito:600,900");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif !important;
+  text-transform: uppercase;
+  letter-spacing: 3em;
+}
+
+code {
+  font-family: "Nunito", sans-serif !important;
+}
+
+/* Landingpage CSS */
+@import url("https://fonts.googleapis.com/css?family=Nunito:600,900");
+
+.landing-fullPage {
+  font-family: "Nunito", sans-serif;
+  font-weight: 900;
+  background-image: url("../images/background3.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0px 0px 0px 3em rgba(198, 121, 83, 0.5) inset;
+  min-height: 100%;
+
+  position: absolute;
+  min-width: 100%;
+}
+
+.landing-fullPage > .footerPage > .footer {
+  position: absolute;
+}
+
+.landing-content h1 {
+  font-family: "Nunito", sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 3px;
+  padding: 10px;
+  font-size: 6em;
+}
+
+.available_now {
+  display: block;
+  position: absolute;
+  margin: 10px auto;
+  padding: 1em;
+  line-height: 15px;
+  font-size: 15px;
+  background-color: transparent;
+  color: black !important;
+  border: solid black 2px;
+  font-weight: 800;
+  font-family: "Nunito", sans-serif;
+  bottom: 7%;
+  right: 45%;
+  outline: none;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+}
+
+.available_now:hover {
+  background-color: black;
+  color: white !important;
+}
+
+@media screen and (max-width: 1024px) {
+  .landing-fullPage {
+    background-image: url("../images/background_mobile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 0px 2em rgba(198, 121, 83, 0.5) inset;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .landing-button a {
+    right: 25%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .landing-button a {
+    right: 21%;
+  }
+}
+
+/* Music CSS */
+.fullPage_music {
+  box-shadow: 0px 0px 0px 3em rgba(40, 109, 168, 0.5) inset;
+  min-height: 100%;
+}
+
+.fullPage_music > .dropdown > .dropdown-list {
+  background-color: rgba(40, 109, 168, 0.5) !important;
+}
+
+.fullPage_music > .footerPage > .footer {
+  position: relative;
+}
+
+.videoclip {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.player-wrapper {
+  position: relative;
+  padding-top: 36.25%; /* Player ratio: 100 / (1280 / 720) */
+  margin-top: 5em;
+  margin-right: 10em;
+  margin-left: 10em;
+  /* z-index: -1; */
+}
+
+.musicText {
+  font-size: 1.5em;
+  text-align: center;
+  display: block;
+  letter-spacing: 0.2em;
+  margin: 3.5em auto 0 auto;
+  width: 60%;
+}
+
+@media screen and (max-width: 420px) {
+  .player-wrapper {
+    padding-top: 56.25%;
+    margin-right: 2.2em;
+    margin-left: 2.2em;
+  }
+
+  .fullPage_music {
+    box-shadow: 0px 0px 0px 2em rgba(40, 109, 168, 0.5) inset;
+  }
+}
+
+/* Platforms CSS */
+.platforms-fullSection {
+  padding-top: 6%;
+  margin: 0 7em 0 5em;
+  padding-bottom: 8%;
+  position: relative;
+}
+
+.playingOn {
+  letter-spacing: 0;
+  text-align: center;
+  font-size: 1.3em;
+  color: black;
+  text-decoration: none;
+  font-weight: 800;
+  border: 1px solid black;
+  padding: 0.5em 0.5em;
+  width: 100%;
+  display: inline-block;
+  max-height: 50px;
+}
+
+.downloadOn {
+  flex-direction: column;
+}
+
+.platform {
+  width: 100%;
+}
+
+.platformLogo {
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  .playingOn {
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .playingOn {
+    font-size: 0.6em;
+  }
+
+  @media screen and (max-width: 420px) {
+    .playingOn {
+      font-size: 1em;
+    }
+  }
+}
+
+/* SongTitles CSS */
+.songTitles {
+  margin-top: 4%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.songs {
+  letter-spacing: 0.2em;
+  display: flex;
+  font-size: 3em;
+  line-height: 0.8em;
+}
+
+.songs:last-child {
+  margin-bottom: 0;
+}
+
+.songs a {
+  text-decoration: none;
+  color: black;
+}
+
+.songs a:hover {
+  font-size: 1.2em;
+  color: rgba(40, 109, 168, 0.5);
+}
+
+@media screen and (max-width: 420px) {
+  .songs {
+    font-size: 1.1em;
+    line-height: 1.5em;
+    display: inline-block;
+  }
+}

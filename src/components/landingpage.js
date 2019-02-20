@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Dropdown from "./dropdown";
-import "../Landingpage.css";
-import "../Dropdown.css";
+import "../css/Landingpage.css";
+import "../css/Dropdown.css";
 import Footer from "./footer";
 import { Link } from "react-router-dom";
 

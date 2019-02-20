@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
-import "../Platforms.css";
+import "../css/Platforms.css";
 
 class Platforms extends Component {
   render() {

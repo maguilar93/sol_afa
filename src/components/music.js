@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../Music.css";
+import "../css/Music.css";
 import Dropdown from "./dropdown";
 import ReactPlayer from "react-player";
 import Platform from "./platforms";
