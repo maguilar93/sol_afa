@@ -6,10 +6,10 @@
 .fullPage_music > .dropdown > .dropdown-list {
   background-color: rgba(40, 109, 168, 0.5) !important;
 }
-
+/* 
 .fullPage_music > .footerPage > .footer {
-  position: relative;
-}
+  position: absolute;
+} */
 
 .videoclip {
   position: absolute;
@@ -35,14 +35,16 @@
   width: 60%;
 }
 
+@media screen and (max-width: 1024px) {
+  .fullPage_music {
+    box-shadow: 0px 0px 0px 2em rgba(40, 109, 168, 0.5) inset;
+  }
+}
+
 @media screen and (max-width: 420px) {
   .player-wrapper {
     padding-top: 56.25%;
     margin-right: 2.2em;
     margin-left: 2.2em;
-  }
-
-  .fullPage_music {
-    box-shadow: 0px 0px 0px 2em rgba(40, 109, 168, 0.5) inset;
   }
 }

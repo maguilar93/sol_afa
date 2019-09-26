@@ -60,6 +60,16 @@
   }
 }
 
+@media screen and (max-width: 568px) and (orientation: landscape) {
+  .landing-fullPage {
+    background-position: right bottom 75%;
+  }
+  .available_now {
+    right: 40%;
+    font-size: 10px;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .landing-button a {
     right: 25%;

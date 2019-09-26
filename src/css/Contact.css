@@ -41,6 +41,12 @@
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .contact-fullpage {
+    box-shadow: 0px 0px 0px 2em rgba(250, 172, 5, 0.5) inset;
+  }
+}
+
 @media screen and (max-width: 1140px) {
   .socialText {
     font-size: 1.5em;
@@ -68,7 +74,52 @@
 }
 
 @media screen and (max-width: 320px) {
+  .socialMedia {
+    top: 27%;
+  }
+
   .socialText {
     left: 20%;
+  }
+}
+
+@media screen and (max-width: 569px) and (orientation: landscape) {
+  .socialText {
+    left: 25% !important;
+  }
+}
+
+@media screen and (max-width: 736px) and (orientation: landscape) {
+  .socialText {
+    left: 30%;
+  }
+}
+
+@media screen and (max-width: 812px) and (orientation: landscape) {
+  .socialText {
+    letter-spacing: 0.5em;
+    left: 33%;
+  }
+
+  .socialMediaGrid {
+    flex-flow: row !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .socialText {
+    letter-spacing: 0.5em;
+    left: 33%;
+  }
+
+  .socialMediaGrid {
+    flex-flow: row !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .socialText {
+    letter-spacing: 0.5em;
+    left: 36%;
   }
 }

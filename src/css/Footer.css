@@ -1,13 +1,20 @@
 .footer {
   left: 2em;
   bottom: 0.5em;
-  /* position: relative; */
   letter-spacing: 0;
   font-size: 10px;
-  /* text-align: right; */
+  position: absolute;
   font-weight: 800;
 }
 
 .footerPage {
-  min-height: 100%;
+  bottom: 0;
+  width: 100%;
+  /* position: relative; */
+}
+
+@media screen and (min-width: 1025px) {
+  .footerPage {
+    position: relative;
+  }
 }

@@ -71,9 +71,9 @@
   }
 
   .dropdown-list {
-    right: 3em;
+    right: 2em;
     width: 9em;
-    top: 3em;
+    top: 2em;
   }
 
   .dropdown-list li a {
@@ -93,5 +93,26 @@
   .dropdown-list {
     top: 2em;
     right: 2em;
+  }
+}
+
+@media screen and (max-width: 568px) and (orientation: landscape) {
+  .dropdown-button {
+    top: 2%;
+  }
+  .dropdown-list {
+    right: 2em;
+    top: 2em;
+  }
+}
+
+@media screen and (max-width: 812px) and (orientation: landscape) {
+  .dropdown-button {
+    top: 1.5%;
+  }
+
+  .dropdown-list {
+    right: 2em;
+    top: 2em;
   }
 }
