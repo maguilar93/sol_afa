@@ -13,8 +13,8 @@
   /* position: relative; */
 }
 
-@media screen and (min-width: 1025px) {
-  .footerPage {
+/* @media only screen and (min-width: 1025px) {
+  .fullPage_music .footerPage {
     position: relative;
   }
-}
+} */
