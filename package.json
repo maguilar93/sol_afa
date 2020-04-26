@@ -37,5 +37,6 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1"
-  }
+  },
+  "homepage": "http://maguilar93.github.io/sol_afa"
 }
