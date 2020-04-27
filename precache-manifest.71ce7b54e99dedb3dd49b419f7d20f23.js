@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/sol_afa/static/css/2.5a3fb701.chunk.css"
   },
   {
-    "revision": "61b0219b19776d5e00ba6c1868db4921",
+    "revision": "f2bddd9c264252bf8efe22c29d7de963",
     "url": "/sol_afa/index.html"
   }
 ];
